@@ -1,3 +1,3 @@
 # Screenshot
 
-<img src="images/calc.png">
+<img src="images/calc.png" style="border-radius: 5px;">
