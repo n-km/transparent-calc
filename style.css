@@ -1,6 +1,23 @@
 html, body {height:100%; font-family: 'Protest Guerrilla', sans-serif;}
 html {display:table; width:100%;}
 body {display:table-cell; text-align:center; vertical-align:middle; background: linear-gradient(#19c9e0, #77dbe8)}
+
+.calc-move {
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: move;
+    background-color: rgba(250, 250, 250, 0.40);
+    transition: 0.2s;
+}
+.calc-move:hover {
+    background-color: rgba(250, 250, 250, 0.70);
+}
+.calc-move:active {
+    background-color: rgba(250, 250, 250);
+}
+
 .calc-container {
     padding: 20px;
     border-radius: 10px;
@@ -24,12 +41,14 @@ body {display:table-cell; text-align:center; vertical-align:middle; background: 
     transition: 0.1s;
     margin-top: 10px;
     background-color: rgba(250,250,250,0.80);
+    color: rgba(0, 0, 0, 0.70);
     font-size: 28px;
     font-weight: 900;
     font-family: 'Karla', sans-serif;
 }
 .calc-btn button:hover {
     background-color: rgba(250, 250, 250, 0.60);
+    color: rgba(0, 0, 0);
 }
 .calc-btn button:active {
     background-color: rgba(250, 250, 250, 0.68);
@@ -40,4 +59,11 @@ body {display:table-cell; text-align:center; vertical-align:middle; background: 
     border-radius: 5px;
     padding: 15px;
     font-size: 30px;
+    cursor: text;
+    box-shadow: 0 0 5px rgba(250, 250, 250, 0);
+    transition: 0.2s;
 }
+#RESULT:hover {
+    box-shadow: 0 0 5px rgba(250, 250, 250, 0.60);
+}
+
