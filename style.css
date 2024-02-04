@@ -1,0 +1,40 @@
+html, body {height:100%; font-family: 'Protest Guerrilla', sans-serif;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle; background: linear-gradient(#19c9e0, #77dbe8)}
+.calc-container {
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+    display: inline-block;
+    height: max-content;
+    width: max-content;
+    text-align: center;
+    vertical-align: middle;
+}
+.calc-btn button{
+    outline: none;
+    min-width: 5rem;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-top: 10px;
+    background-color: rgba(250,250,250,0.80);
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Karla', sans-serif;
+}
+.calc-btn button:hover {
+    background-color: rgba(250, 250, 250, 0.60);
+}
+.calc-btn button:active {
+    background-color: rgba(250, 250, 250, 0.68);
+}
+#RESULT {
+    font-size: 20px;
+    background-color: rgba(250, 250, 250, 0.80);
+    border-radius: 5px;
+    padding: 5px;
+}
